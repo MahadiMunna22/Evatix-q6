@@ -1,0 +1,44 @@
+.tag {
+  background-color: rgb(244, 245, 247);
+  color: rgb(37, 56, 88);
+  width: fit-content;
+  border-radius: 3px;
+  max-width: 200px;
+  cursor: default;
+}
+.rounded {
+  border-radius: 50px !important;
+}
+.href {
+  color: rgb(0, 82, 204);
+  text-decoration: none;
+  padding: 0px 5px 5px 5px;
+}
+.href:hover {
+  text-decoration: underline;
+  background-color: rgb(212, 212, 212);
+}
+.text {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.tag-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.removeAnimation {
+  animation-timing-function: ease-out;
+}
+@keyframes mymove {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 300px;
+  }
+}

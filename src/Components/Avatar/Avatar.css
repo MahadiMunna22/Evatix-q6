@@ -1,0 +1,4 @@
+.avatar:hover {
+  border: 3px solid rgb(0, 204, 255);
+  filter: brightness(0.8);
+}
